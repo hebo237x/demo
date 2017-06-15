@@ -1,4 +1,4 @@
-package com.hebo.callable;
+package com.hebo.java.thread.callable;
 
 import org.junit.Test;
 

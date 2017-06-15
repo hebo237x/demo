@@ -1,4 +1,4 @@
-package com.hebo.threadpool;
+package com.hebo.java.thread.threadpool;
 
 import java.util.LinkedList;
 import java.util.List;

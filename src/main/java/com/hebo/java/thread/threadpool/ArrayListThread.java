@@ -1,4 +1,4 @@
-package com.hebo.thread;
+package com.hebo.java.thread.threadpool;
 
 import com.hebo.util.JsonUtils;
 

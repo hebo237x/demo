@@ -1,4 +1,4 @@
-package com.hebo.executors;
+package com.hebo.java.thread.executors;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;

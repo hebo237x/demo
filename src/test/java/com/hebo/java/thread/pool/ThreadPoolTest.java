@@ -1,6 +1,7 @@
-package com.hebo.thread.pool;
+package com.hebo.java.thread.pool;
 
-import com.hebo.threadpool.ThreadPool;
+
+import com.hebo.java.thread.threadpool.ThreadPool;
 
 /**
  * Created by hebo on 2017/6/9.
