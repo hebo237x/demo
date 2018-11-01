@@ -1,11 +1,6 @@
 package com.hebo.util;
 
-import com.google.common.collect.ArrayListMultimap;
-import com.google.common.collect.ListMultimap;
-import com.google.common.collect.Maps;
-
 import java.util.Collection;
-import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.function.Function;
@@ -46,7 +41,7 @@ public final class CollectionUtils {
 		return list.stream().map(function).collect(Collectors.toList());
 	}
 
-	public static <K, V> LinkedHashMap<K, V> ofMap(List<V> list, Function<V, K> keyFunction) {
+	/*public static <K, V> LinkedHashMap<K, V> ofMap(List<V> list, Function<V, K> keyFunction) {
 		LinkedHashMap<K, V> result = Maps.newLinkedHashMap();
 		for (V value : list) {
 			result.put(keyFunction.apply(value), value);
@@ -60,5 +55,5 @@ public final class CollectionUtils {
 			result.put(keyFunction.apply(value), value);
 		}
 		return result;
-	}
+	}*/
 }

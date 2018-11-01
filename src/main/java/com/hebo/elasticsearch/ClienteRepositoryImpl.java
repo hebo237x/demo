@@ -1,10 +1,6 @@
 package com.hebo.elasticsearch;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
-import java.util.ArrayList;
-import java.util.List;
 
 /**
  * Created by hebo on 2017/3/9.
@@ -12,18 +8,17 @@ import java.util.List;
 @Service
 public class ClienteRepositoryImpl{
 
-    @Autowired
+  /*  @Autowired
     private ClienteRepository clienteRepository;
 
     public User findByUserName(String userName){
         User ss = new User();
         List<User> users = new ArrayList<>();
-        clienteRepository.save(users);
         return clienteRepository.findByUserName(userName);
     }
 
     public User findOne(String id){
-        return clienteRepository.findOne(id);
+        return clienteRepository.findByUserName(id);
     }
 
     public void init(){
@@ -35,5 +30,5 @@ public class ClienteRepositoryImpl{
             clienteRepository.save(user);
         }
 
-    }
+    }*/
 }

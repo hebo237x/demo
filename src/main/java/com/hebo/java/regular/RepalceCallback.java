@@ -6,7 +6,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 /**
- * Created by hebo on 2017/5/3.
+ * Created by hebo on 2017/5/3. 泛型
  */
 public class RepalceCallback {
 
